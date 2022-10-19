@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      " id " : " 1 " ,
+      " email " : " odirlei@teste.com " ,
+       " senha " : " 123 " ,
+       " nome " : " odirlei "
+    },
+    {
+      " id " : " 2 " ,
+      " email " : " duda@teste.com " ,
+       " senha " : " 123 " ,
+       " nome " : " duda "
+    }
+  ]
+}

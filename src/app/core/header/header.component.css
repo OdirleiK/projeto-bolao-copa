@@ -1,0 +1,21 @@
+ul {
+  list-style: none;
+}
+.navbar-brand{
+  font-size:25px;
+  align-content: center;
+}
+.nav{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+a img {
+  margin-bottom: 4px;
+}
+.icon-mat {
+  padding-top: 3px;
+  align-items: center;
+}
+ul li {
+  font-size: 25px;
+}

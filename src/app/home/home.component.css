@@ -1,0 +1,36 @@
+.container {
+  height: 100vh;
+}
+.bg-home {
+  background-image: url(/assets/img/bg-home.png);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.title {
+  font-weight: 600;
+  font-size: 45px;
+  color: #fff;
+  text-align: center;
+}
+.img-logo-copa {
+  height: 400px;
+  width: 600px;
+}
+.row {
+  padding-top: 10%;
+
+}
+.welcome-phrase {
+  font-size: 19px;
+  color: #fff;
+  text-align: center;
+}
+.welcome-bold{
+  font-size: 19px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+

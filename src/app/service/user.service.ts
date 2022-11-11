@@ -12,7 +12,7 @@ export class UserService {
     id: 0,
     nome: '',
     email: '',
-    //add campos
+
   });
   private userName!: string;
 

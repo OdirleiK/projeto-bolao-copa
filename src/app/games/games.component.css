@@ -1,0 +1,43 @@
+.main{
+  padding-top: 4%;
+}
+.title-groups {
+  font-size: 50px;
+  color: #510b25;
+}
+.text-intro {
+  padding-top: 5px;
+  font-size: 30px;
+  color: #510b25;
+}
+.btn-guess{
+  font-size: 25px;
+  margin-top: 20px;
+  background-color: #fff;
+  color: #510b25;
+  border-color: #510b25;
+  padding: 10px 170px;
+}
+.btn-guess:hover {
+  background-color: #510b25;
+  color: #fff;
+}
+
+.table-size {
+  margin: 0 auto;
+  width: 45%;
+  margin-top: 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.table-title {
+  background-color: #510b25;
+  color: #fff;
+  font-size: 20px;
+}
+
+.table-rows {
+  padding: 20px;
+  font-size: 20px;
+}
+

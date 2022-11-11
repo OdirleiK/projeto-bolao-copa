@@ -1,0 +1,103 @@
+
+.main{
+  padding-top: 4%;
+  overflow-y: auto;
+}
+.title-groups {
+  font-size: 50px;
+  color: #510b25;
+}
+.text-intro {
+  padding-top: 5px;
+  font-size: 30px;
+  color: #510b25;
+}
+
+.card-info {
+  margin: 0 auto;
+  background-color: #f8f8f8;
+  width: 50%;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 40px;
+  padding: 15px;
+}
+
+.info-strong {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.p-card {
+  font-size: 16px;
+}
+
+.card-info {
+  background-color: #f8f8f8;
+}
+
+.text-info-card{
+  margin: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.card-palpite {
+  margin: 0 auto;
+  background-color: #f8f8f8;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.grupoh4{
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.info-date {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.bnt-palpite{
+  padding-bottom: 25px;
+}
+
+.time {
+  color: #510b25;
+  font-weight: 600;
+}
+
+.p-time {
+  font-weight: 600;
+}
+
+.confirm-palpite {
+  text-align: center;
+}
+
+.palpite-t1-t2-e {
+  padding: 10px;
+  border: 1px;
+  min-width: 100px;
+}
+
+.palpite-t1-t2-e:focus {
+  color: #fff;
+  background-color: #510b25;
+}
+
+.bnt-confirm-palpite {
+  font-size: 25px;
+  margin-top: 20px;
+  background-color: #fff;
+  color: #510b25;
+  border-color: #510b25;
+  padding: 10px 170px;
+  text-align: center;
+  margin-bottom: 50px;
+}

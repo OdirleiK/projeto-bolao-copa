@@ -1,0 +1,46 @@
+.register{
+  text-align: center;
+  font-weight: bold;
+  color: #510b25;
+}
+.form-grid {
+  margin-left: 200px;
+}
+.form-card{
+  background-color: #fff;
+  padding: 60px;
+  height: 500px;
+  width: 450px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+}
+.form-control {
+  margin-top: 10%;
+  padding: 15px;
+}
+
+.form-group {
+  margin-top: 10px;
+
+}
+.btn-sub {
+  border: none;
+  cursor: pointer;
+  background: #510b25;
+  color: #ffffff;
+  display: inline-block;
+  border: 1px solid #666666;
+  margin-left: 37%;
+  margin-top: 30px;
+  padding: 10px 25px;
+}
+
+.bt-register{
+  font-weight: 500;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.login{
+  cursor: pointer;
+}

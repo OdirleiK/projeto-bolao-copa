@@ -5,8 +5,12 @@
         <img src="/assets/img/iconV1Header.png" alt="Logo" width="35" height="25" class="d-inline-block align-text-center">
         Bolão copa
       </a>
-      <ul class="d-inline-block align-text-center">
-        <li><mat-icon class="icon-mat">person</mat-icon> User </li>
+      <ul class="menu">
+        <li><a [routerLink]="['jogos']">Grupos</a></li>
+        <li><a [routerLink]="['palpites']">Palpitar</a></li>
+        <li><a [routerLink]="['pontos']">Meus pontos</a></li>
+        <li><a [routerLink]="['topPalpites']">Top Palpites</a></li>
+        <li><a [routerLink]="">User</a></li>
       </ul>
     </div>
   </nav>

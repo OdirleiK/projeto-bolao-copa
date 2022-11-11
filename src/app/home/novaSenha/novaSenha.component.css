@@ -1,0 +1,48 @@
+.welcome{
+  text-align: center;
+  font-weight: bold;
+  color: #510b25;
+}
+.form-grid {
+  margin-left: 200px;
+}
+.form-card{
+  background-color: #fff;
+  padding: 60px;
+  height: 500px;
+  width: 450px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+}
+.form-control {
+  margin-top: 10%;
+  padding: 15px;
+}
+.btn-sub {
+  border: none;
+  cursor: pointer;
+  background: #510b25;
+  color: #ffffff;
+  display: inline-block;
+  border: 1px solid #666666;
+  margin-left: 37%;
+  margin-top: 30px;
+  padding: 10px 25px;
+}
+.reset-password {
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.register {
+  font-weight: 500;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.validation-error {
+  color: #a03540;
+  margin-top: 0.4em;
+  border-left: 3px solid #a03540;
+  padding-left: 0.2em;
+}

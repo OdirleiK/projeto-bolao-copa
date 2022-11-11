@@ -1,0 +1,21 @@
+<form #form="ngForm" [formGroup]="resetForm" (submit)="resetSenha()">
+
+    <div class="form-grid">
+      <div class="form-card">
+        <h1 class="register">Insira seu email</h1>
+        <p class="text-center">para receber seu token e resetar sua senha</p>
+
+        <div class="form-group">
+          <input
+              formControlName="email"
+              type="email"
+              class="form-control"
+              placeholder="Email"
+              required>
+
+        <button type="Enviar" class="btn btn-primary btn-sub " [disabled]="resetForm.invalid"> Enviar </button>
+      </div>
+    </div>
+  </div>
+</form>
+

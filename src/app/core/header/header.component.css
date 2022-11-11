@@ -1,21 +1,35 @@
-ul {
-  list-style: none;
-}
-.navbar-brand{
-  font-size:25px;
-  align-content: center;
+
+header {
+  border-bottom: 3px inset #510B25;
 }
 .nav{
   padding-left: 50px;
   padding-right: 50px;
+
 }
 a img {
   margin-bottom: 4px;
 }
+.logo-header {
+  font-size: 25px;
+  font-weight: 500;
+  color: #510B25;
+}
 .icon-mat {
   padding-top: 3px;
   align-items: center;
+  font-weight: bold;
 }
+
 ul li {
-  font-size: 25px;
+  font-size: 20px;
+  padding-top: 10px;
+  color: #510B25;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 0.9rem;
+
 }

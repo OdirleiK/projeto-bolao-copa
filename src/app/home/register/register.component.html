@@ -1,0 +1,59 @@
+
+<form #form="ngForm" [formGroup]="registerForm" (submit)="register()">
+  <div class="form-grid">
+    <div class="form-card">
+      <h1 class="register">Crie sua conta</h1>
+
+      <div class="form-group">
+        <input
+            #nameInput
+            formControlName="nome"
+            type="text"
+            class="form-control"
+            placeholder="Nome"
+            autofocus
+            required>
+      </div>
+
+      <div class="form-group">
+        <input
+            formControlName="sobrenome"
+            type="text"
+            class="form-control"
+            placeholder="Sobrenome"
+            required>
+      </div>
+
+      <div class="form-group">
+        <input
+            formControlName="email"
+            type="email"
+            class="form-control"
+            placeholder="Email"
+            required>
+
+      </div>
+
+      <div class="form-group">
+        <input
+            formControlName="senha"
+            type="password"
+            class="form-control"
+            placeholder="Senha"
+            required>
+      </div>
+
+      <div class="form-group">
+        <input
+            formControlName="confirmsenha"
+            type="password"
+            class="form-control"
+            placeholder="Confirme sua senha"
+            required>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-sub " [disabled]="registerForm.invalid"> Cadastrar </button>
+      <p class="bt-register">Ja tem uma conta? <a [routerLink]="['']" class="login"> faça login</a></p>
+    </div>
+  </div>
+</form>

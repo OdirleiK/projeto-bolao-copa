@@ -43,3 +43,10 @@
   margin-top: 15px;
   text-align: center;
 }
+
+.validation-error {
+  color: #a03540;
+  margin-top: 0.4em;
+  border-left: 3px solid #a03540;
+  padding-left: 0.2em;
+}

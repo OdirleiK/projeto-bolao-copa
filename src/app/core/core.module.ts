@@ -1,3 +1,4 @@
+import { GamesModule } from './../games/games.module';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from './footer/footer.component';
@@ -19,7 +20,8 @@ import { MatIconModule } from '@angular/material/icon';
   imports: [
     CommonModule,
     MatIconModule,
-    RouterModule
+    RouterModule,
+    GamesModule
   ],
   providers: [
 

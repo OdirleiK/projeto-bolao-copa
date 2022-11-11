@@ -1,3 +1,7 @@
+import { NovaSenhaComponent } from './novaSenha/novaSenha.component';
+import { ResetSenhaComponent } from './resetSenha/resetsenha.component';
+import { BLmessageModule } from './../shared/components/blmessage.module';
+import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
@@ -12,6 +16,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     declarations: [
       HomeComponent,
       LoginComponent,
+      RegisterComponent,
+      ResetSenhaComponent,
+      NovaSenhaComponent
     ],
     imports: [
       CommonModule,
@@ -19,6 +26,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
       HomeRoutingModule,
       FormsModule,
       ReactiveFormsModule,
+      BLmessageModule
     ],
 
 })

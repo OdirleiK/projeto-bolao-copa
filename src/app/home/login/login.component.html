@@ -1,17 +1,36 @@
 
-<form>
+<form (ngSubmit)="login()" [formGroup]="loginForm" #formDir="ngForm">
   <div class="form-grid">
     <div class="form-card">
       <h1 class="welcome">Seja bem vindo</h1>
+
       <div class="form-group">
-        <input type="email" class="form-control form-control-email" id="exampleInputEmail1" placeholder="Email">
+        <input
+            #emailInput
+            type="email"
+            class="form-control form-control-email"
+            formControlName="email"
+            placeholder="Email"
+            autofocus
+            required>
       </div>
       <div class="form-group">
-        <input type="password" class="form-control form-control-password" id="exampleInputPassword1" placeholder="Password">
+        <input
+            formControlName="password"
+            type="password"
+            class="form-control form-control-password"
+            placeholder="Senha"
+            required>
       </div>
-      <p class="reset-password">esqueceu sua senha ? clique aqui</p>
-      <button type="submit" class="btn btn-primary btn-sub ">Submit</button>
-      <p class="register">Ainda nao tem conta? registre-se</p>
+
+      <p class="reset-password">esqueceu sua senha ?<a [routerLink]="['resetSenha']">Clique aqui</a></p>
+      <button
+          type="submit"
+          class="btn btn-primary btn-sub "
+          [disabled]="loginForm.invalid">
+          Entrar
+        </button>
+      <p class="register">Ainda nao tem conta?<a [routerLink]="['register']">Register-se</a></p>
     </div>
   </div>
 </form>
